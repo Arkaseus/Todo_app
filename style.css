@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    background-color: rgb(207, 252, 255);
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+    overflow-y:scroll ;
+}
+.right{
+    
+    width: 50%;
+    height: 100%;
+    
+}
+#tarea{
+    background-color: rgb(255, 193, 193);
+    font-size: xx-large;
+    width:100%;
+    height:100%;
+    padding:10px;
+    letter-spacing: 1px;
+}
+
+#left2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding:6px;
+    margin-top: 10px;;
+}
+.controls{
+    
+   display: flex;
+   width: 150px;
+   justify-content: space-between;
+
+}
+#task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+    
